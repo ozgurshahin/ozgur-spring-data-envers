@@ -1,0 +1,25 @@
+### LIST
+GET http://localhost:8080/car
+
+### ADD
+POST http://localhost:8080/car
+Content-Type: application/json
+
+{
+  "brandName": "Ford",
+  "modelName": "Fiesta"
+}
+
+
+### UPDATE
+PUT http://localhost:8080/car/1
+Content-Type: application/json
+
+{
+  "brandName": "Ford_UPDATED",
+  "modelName": "Fiesta"
+}
+
+
+### DELETE
+DELETE http://localhost:8080/car/1
